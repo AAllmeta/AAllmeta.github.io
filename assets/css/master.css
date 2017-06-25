@@ -1,0 +1,47 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-image: url("MBP-coding.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.picture {
+  display: block;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 0 auto 40px;
+}
+.body, .footer {
+  width: 600px;
+  margin: 40px auto;
+  font-size: 1.5em;
+}
+.footer {
+  text-align: center;
+}
+nav {
+  display: block;
+  width: 110px;
+  margin: 0 auto;
+}
+nav a svg {
+
+}
+h1 {
+  /* hotpink = #FF69B4 */
+  color: #ccff00;
+  font-size: 64px;
+  font-weight: bold;
+}
+h3 {
+  text-align: center;
+  margin: 20px
+}
