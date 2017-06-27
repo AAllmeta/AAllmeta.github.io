@@ -1,3 +1,8 @@
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1000px;
+    }
+}
 html, body {
   margin: 0;
   padding: 0;
@@ -17,23 +22,18 @@ html, body {
   width: 40vh;
   height: 40vh;
   border-radius: 50%;
-  margin: 0 auto 40px;
+  margin: 40px auto 40px;
 }
-.body, .footer {
-  max-width: 70%;
-  margin: 40px auto;
+.container h3 {
   font-size: 2.5vh;
 }
 .footer {
-  text-align: center;
+  margin: 40px 0;
 }
 nav {
   display: block;
   width: 110px;
   margin: 0 auto;
-}
-nav a svg {
-
 }
 h1 {
   /* hotpink = #FF69B4 */
