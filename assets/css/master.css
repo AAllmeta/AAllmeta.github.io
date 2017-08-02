@@ -21,8 +21,8 @@ html, body {
   display: block;
   width: 35%;
   height: 35%;
-  border-radius: 50%;
   margin: 40px auto 40px;
+  border-radius: 50%;
 }
 .container {
   font-size: 19px;
