@@ -1,6 +1,6 @@
 $(document).ready(function () {
   $('h1').typeIt({
-    strings: ["{hello world}", "{My name is Arben}"],
+    strings: ["{hello world}", "{My name is Arben Allmeta}"],
     speed: 150,
     breakLines: false,
     deleteDelay: 800,
@@ -10,14 +10,24 @@ $(document).ready(function () {
   $(window).scroll(function () {
     var height = $(window).scrollTop();
     if (height < 300) {
-      pix(height);
+      pix1();
+      pix2();
     }
   });
 
-  function pix (height) {
-    $('h3').typeIt({
-      strings: '{About me}',
-      speed: 150,
+  function pix1 () {
+    $('#aboutme').typeIt({
+      strings: ['{About me}'],
+      speed: 75,
+      autoStart: true
+    });
+    return;
+  }
+
+  function pix2 () {
+    $('#esbp').typeIt({
+      strings: ['{Summer Bridge}'],
+      speed: 100,
       autoStart: true
     });
     return;
