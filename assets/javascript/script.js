@@ -12,6 +12,7 @@ $(document).ready(function () {
     if (height < 300) {
       pix1();
       pix2();
+      pix3();
     }
   });
 
@@ -27,6 +28,15 @@ $(document).ready(function () {
   function pix2 () {
     $('#esbp').typeIt({
       strings: ['{Summer Bridge}'],
+      speed: 100,
+      autoStart: true
+    });
+    return;
+  }
+
+  function pix3 () {
+    $('#resume').typeIt({
+      strings: ['{Resume}'],
       speed: 100,
       autoStart: true
     });

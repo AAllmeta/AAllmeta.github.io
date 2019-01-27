@@ -45,3 +45,8 @@ h3 {
   text-align: center;
   margin: 20px
 }
+embed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
