@@ -27,6 +27,9 @@ html, body {
 .container {
   font-size: 19px;
 }
+.link {
+  text-align: center;
+}
 .footer {
   margin: 40px 0;
 }
