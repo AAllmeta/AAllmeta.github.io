@@ -10,6 +10,7 @@ $(document).ready(function () {
   $('.scrolltext').typeIt({
     strings: ["{Scroll Down}"],
     speed: 150,
+    startDelay: 5000,
     breakLines: false,
     deleteDelay: 800,
     autoStart: true
