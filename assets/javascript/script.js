@@ -1,7 +1,16 @@
 $(document).ready(function () {
   $('h1').typeIt({
-    strings: ["{hello world}", "{My name is Arben Allmeta}"],
+    strings: ["{Hello world!}", "{My name is Arben Allmeta}"],
     speed: 150,
+    breakLines: false,
+    deleteDelay: 800,
+    autoStart: true
+  });
+
+  $('.scrolltext').typeIt({
+    strings: ["{Scroll Down}"],
+    speed: 150,
+    startDelay: 5000,
     breakLines: false,
     deleteDelay: 800,
     autoStart: true

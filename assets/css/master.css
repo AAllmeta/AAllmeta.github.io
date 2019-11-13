@@ -33,6 +33,13 @@ html, body {
 .footer {
   margin: 40px 0;
 }
+.scrolltext {
+  position: relative;
+  top: 35vh;
+  color: #ccff00;
+  font-size: 3vh;
+  font-weight: bold;
+}
 nav {
   display: block;
   width: 25px;
